@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap');
+
 .split {
   height: 100%;
   width: 50%;
@@ -27,16 +29,20 @@
 
 .name_title {
   font-size: 48px;
-  color: black;
+  color: blue;
   text-align: left;
   padding-bottom: 20px;
+  font-family: "Playwrite NL", cursive;
 }
 
 .brief_description {
   text-align: left;
+  width: 130%;
+  font-family: "Playwrite NL", cursive;
 }
 
 .profile_image {
-  width: 500px;
-  height: auto;
+  width: 350px;
+  height: 300px;
+  border-radius: 100%;
 }
